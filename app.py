@@ -74,7 +74,7 @@ def get_random_batch_tokens(server_name, all_tokens):
 def load_tokens(server_name, for_visit=False):
     if for_visit:
         if server_name == "IND":
-            path = "token_ind.json"
+            path = "token_ind_visit.json"
         elif server_name in {"BR", "US", "SAC", "NA"}:
             path = "token_br_visit.json"
         else:
